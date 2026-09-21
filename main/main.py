@@ -1,9 +1,29 @@
 from fastapi import FastAPI
 
-api = FastAPI()
+app = FastAPI()
 
-@api.get("/")
-def display():
-        return{
-            "message": "Hello World"
-        }
+@app.get("/")
+def display():{
+        "message" : "Hello Kashish"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# @api.get("/add")
+# def add(a:int,b:int):
+#     c = a + b   
+#     return {
+#         "result": c 
+#     }
